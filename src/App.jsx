@@ -50,11 +50,16 @@ function App() {
           </SectionHeading>
           <Experience title="Freelance Developer" subtitle="Mar 2022 - Present">
             <ul className="list-disc px-5">
-              <li className="mt-2">
+              <li className="mt-2 mb-1">
                 Web development with Python (Flask, Django), JavaScript (React),
                 HTML and CSS.
               </li>
+              <p className="mb-4">
+                Web development is really useful, it can run on any device.
+              </p>
               <li className="mt-1">Game development with Godot</li>
+              Game development greatly improved a lot my problem-solving skills,
+              as it forces you to think both creatively and algorithmically.
             </ul>
           </Experience>
         </CustomSection>
