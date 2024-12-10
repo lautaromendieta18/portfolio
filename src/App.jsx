@@ -98,7 +98,7 @@ function App() {
             A Flask web application made for a gym. It has a users system, an
             admin system and a schedule management system.
           </ProjectPreview>
-          <section className="grid grid-cols-2 gap-5">
+          <section className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <MinorProject title="IA for games" icons={<GodotIcon />}>
               AI with differents design patterns
             </MinorProject>
