@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="relative min-h-dvh">
       <main className="mx-4 lg:mx-80 text-white p-8">
-        <header className="flex justify-center py-4 mb-4 items-center gap-5">
+        <header className="flex flex-col md:flex-row justify-center py-4 mb-4 items-center gap-5">
           <Avatar />
           <div className="">
             <h1 className="text-3xl font-bold">Lautaro Mendieta</h1>
