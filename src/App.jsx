@@ -25,7 +25,7 @@ function App() {
               Fullstack developer, programming enthusiast
             </h2>
             <div className="flex items-center gap-5">
-              <CustomButton to="../src/files/CV-1.pdf" color={"#18864B"}>
+              <CustomButton to="./CV-1.pdf" color={"#18864B"}>
                 <i className="fa-solid fa-file mr-2"></i> Resume
               </CustomButton>
               <a
@@ -70,7 +70,7 @@ function App() {
                 <BootstrapIcon></BootstrapIcon>
               </>
             }
-            image="../src/assets/berloni.jpg"
+            image="./berloni.jpg"
           >
             Landing page for a fishing company, a freelancer job. From
             planification and design to deploying to production. Made 100% by
@@ -79,7 +79,8 @@ function App() {
           <ProjectPreview
             title="VR Physics Simulation"
             icons={<GodotIcon />}
-            image="../src/assets/vrphysicssimulator.jpg"
+            image="./vrphysicssimulator.jpg"
+            to="https://www.youtube.com/watch?v=FcVHkW_ciVM&feature=youtu.be"
           >
             A projectile motion simulation adapted to run on Meta Quests
             headsets, my responsibility was the technical aspects and
@@ -93,13 +94,18 @@ function App() {
                 <JSIcon />
               </>
             }
-            image="../src/assets/catelottiapp.jpg"
+            image="./catelottiapp.jpg"
+            to="https://www.youtube.com/watch?v=sxzqIURtHoM&feature=youtu.be"
           >
             A Flask web application made for a gym. It has a users system, an
             admin system and a schedule management system.
           </ProjectPreview>
           <section className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <MinorProject title="IA for games" icons={<GodotIcon />}>
+            <MinorProject
+              title="AI for games"
+              icons={<GodotIcon />}
+              to="https://www.youtube.com/watch?v=FPMqDupeeWo&feature=youtu.be"
+            >
               AI with differents design patterns
             </MinorProject>
             <MinorProject
@@ -110,6 +116,7 @@ function App() {
                   <JSIcon />
                 </>
               }
+              to="https://youtu.be/vI88aKI1XGk"
             >
               A simple wiki with CRUD
             </MinorProject>
@@ -121,6 +128,7 @@ function App() {
                   <JSIcon />
                 </>
               }
+              to="https://www.youtube.com/watch?v=csdqYifjYDM&feature=youtu.be"
             >
               Network with followers, likes, posts, etc.
             </MinorProject>
@@ -132,6 +140,7 @@ function App() {
                   <JSIcon />
                 </>
               }
+              to="https://www.youtube.com/watch?v=BzKsxMkDRBQ"
             >
               Auctions web application
             </MinorProject>

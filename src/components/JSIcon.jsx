@@ -3,7 +3,7 @@ export default function JSIcon() {
     <img
       title="JavaScript"
       className="my-4 inline ml-2"
-      src="../src/assets/javascript.webp"
+      src="./javascript.webp"
       alt="JavaScript Icon"
     />
   );
