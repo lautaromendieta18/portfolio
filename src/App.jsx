@@ -70,6 +70,7 @@ function App() {
                 <BootstrapIcon></BootstrapIcon>
               </>
             }
+            to="https://lautaromendieta18.github.io/berloni/"
             image="./berloni.jpg"
           >
             Landing page for a fishing company, a freelancer job. From

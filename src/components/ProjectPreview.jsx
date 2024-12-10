@@ -5,7 +5,7 @@ export default function ProjectPreview({ title, children, icons, image, to }) {
     <article className="flex flex-col justify-center items-center md:flex-row md:justify-start gap-10 my-8">
       <aside className="w-[95%] md:w-96 h-56 rounded-md bg-slate-700 overflow-hidden">
         <img
-          className="object-scale-down w-96 h-56 translate-x-10 translate-y-10 hover:translate-x-5 hover:translate-y-5 rounded-md hover: transition-all"
+          className="object-scale-down w-96 h-56 md:translate-x-10 md:translate-y-10 md:hover:translate-x-5 md:hover:translate-y-5 rounded-md transition-all"
           src={image}
           alt="Project Preview"
         />
